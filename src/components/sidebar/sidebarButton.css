@@ -1,0 +1,37 @@
+/* SidebarButton Styles */
+
+/* Link styles */
+a {
+    text-decoration: none!important;
+}
+
+/* Div styles */
+.btn-body {
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    color: #3a0a7a;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px auto;
+    transition: all 0.5s ease;
+}
+
+.btn-body.active {
+    background-color: #3a0a7a;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* On hover */
+.btn-body:hover {
+    color:#87838d;
+}
+
+.btn-title {
+    margin: 4px auto;
+    font-size: 14px;
+    margin-top: 20px;
+}
