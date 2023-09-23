@@ -14,8 +14,9 @@ export default function Home() {
     
     <Router>
       <div className='main-body'>
-        <LogIn />
-      {/* <Sidebar />
+        {/* <h1>SPARKY TUNES</h1> */}
+        {/* <LogIn /> */}
+      <Sidebar />
       <Routes>
             <Route path='/' element={<Library />} />
             <Route path='/feed' element={<Feed />} />
@@ -23,7 +24,7 @@ export default function Home() {
             <Route path='/player' element={<Player />} />
             <Route path='/favourites' element={<Favourites />} />
 
-        </Routes> */}
+        </Routes>
       </div>
     </Router>
     
