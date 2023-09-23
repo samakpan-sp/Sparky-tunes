@@ -12,7 +12,7 @@ import './home.css'
 export default function Home() {
   return (
     
-    <Router>
+    <Router  basename="/Sparky-tunes">
       <div className='main-body'>
         {/* <h1>SPARKY TUNES</h1> */}
         {/* <LogIn /> */}

@@ -1,7 +1,7 @@
 {
-  "homepage": "http://samakpan-sp.github.io/Sparky-tunes",
+  "homepage": "https://samakpan-sp.github.io/Sparky-tunes",
   "name": "sparky-tunes",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
